@@ -1,0 +1,11 @@
+C:\Users\Dima\source\repos\MyLab12\obj\Debug\MyLab12.csproj.AssemblyReference.cache
+C:\Users\Dima\source\repos\MyLab12\obj\Debug\MyLab12.fMain.resources
+C:\Users\Dima\source\repos\MyLab12\obj\Debug\MyLab12.fStudent.resources
+C:\Users\Dima\source\repos\MyLab12\obj\Debug\MyLab12.Properties.Resources.resources
+C:\Users\Dima\source\repos\MyLab12\obj\Debug\MyLab12.csproj.GenerateResource.cache
+C:\Users\Dima\source\repos\MyLab12\obj\Debug\MyLab12.csproj.CoreCompileInputs.cache
+C:\Users\Dima\source\repos\MyLab12\bin\Debug\MyLab12.exe.config
+C:\Users\Dima\source\repos\MyLab12\bin\Debug\MyLab12.exe
+C:\Users\Dima\source\repos\MyLab12\bin\Debug\MyLab12.pdb
+C:\Users\Dima\source\repos\MyLab12\obj\Debug\MyLab12.exe
+C:\Users\Dima\source\repos\MyLab12\obj\Debug\MyLab12.pdb
