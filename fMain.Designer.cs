@@ -37,9 +37,15 @@
             this.btnDel = new System.Windows.Forms.ToolStripButton();
             this.btnClear = new System.Windows.Forms.ToolStripButton();
             this.tsSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.btnSaveAsText = new System.Windows.Forms.ToolStripButton();
+            this.btnSaveAsBinary = new System.Windows.Forms.ToolStripButton();
+            this.btnOpenFromText = new System.Windows.Forms.ToolStripButton();
+            this.btnOpenFromBinary = new System.Windows.Forms.ToolStripButton();
+            this.tsSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.btnExit = new System.Windows.Forms.ToolStripButton();
             this.gvStudents = new System.Windows.Forms.DataGridView();
             this.bindSrcStudents = new System.Windows.Forms.BindingSource(this.components);
+            this.saveFileDialog = new System.Windows.Forms.SaveFileDialog();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gvStudents)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindSrcStudents)).BeginInit();
@@ -55,6 +61,11 @@
             this.btnDel,
             this.btnClear,
             this.tsSeparator2,
+            this.btnSaveAsText,
+            this.btnSaveAsBinary,
+            this.btnOpenFromText,
+            this.btnOpenFromBinary,
+            this.tsSeparator3,
             this.btnExit});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
@@ -112,6 +123,55 @@
             // 
             this.tsSeparator2.Name = "tsSeparator2";
             this.tsSeparator2.Size = new System.Drawing.Size(6, 27);
+            // 
+            // btnSaveAsText
+            // 
+            this.btnSaveAsText.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.btnSaveAsText.Image = ((System.Drawing.Image)(resources.GetObject("btnSaveAsText.Image")));
+            this.btnSaveAsText.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnSaveAsText.Name = "btnSaveAsText";
+            this.btnSaveAsText.Size = new System.Drawing.Size(29, 24);
+            this.btnSaveAsText.Text = "Зберегти у текстовому форматі";
+            this.btnSaveAsText.ToolTipText = "Зберегти у текстовому форматі";
+            this.btnSaveAsText.Click += new System.EventHandler(this.btnSaveAsText_Click);
+            // 
+            // btnSaveAsBinary
+            // 
+            this.btnSaveAsBinary.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.btnSaveAsBinary.Image = ((System.Drawing.Image)(resources.GetObject("btnSaveAsBinary.Image")));
+            this.btnSaveAsBinary.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnSaveAsBinary.Name = "btnSaveAsBinary";
+            this.btnSaveAsBinary.Size = new System.Drawing.Size(29, 24);
+            this.btnSaveAsBinary.Text = "Зберегти у бінарному форматі";
+            this.btnSaveAsBinary.ToolTipText = "Зберегти у бінарному форматі";
+            this.btnSaveAsBinary.Click += new System.EventHandler(this.btnSaveAsBinary_Click);
+            // 
+            // btnOpenFromText
+            // 
+            this.btnOpenFromText.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.btnOpenFromText.Image = ((System.Drawing.Image)(resources.GetObject("btnOpenFromText.Image")));
+            this.btnOpenFromText.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnOpenFromText.Name = "btnOpenFromText";
+            this.btnOpenFromText.Size = new System.Drawing.Size(29, 24);
+            this.btnOpenFromText.Text = "Читати текстові дані";
+            this.btnOpenFromText.ToolTipText = "Читати текстові дані";
+            this.btnOpenFromText.Click += new System.EventHandler(this.btnOpenFromText_Click);
+            // 
+            // btnOpenFromBinary
+            // 
+            this.btnOpenFromBinary.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.btnOpenFromBinary.Image = ((System.Drawing.Image)(resources.GetObject("btnOpenFromBinary.Image")));
+            this.btnOpenFromBinary.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnOpenFromBinary.Name = "btnOpenFromBinary";
+            this.btnOpenFromBinary.Size = new System.Drawing.Size(29, 24);
+            this.btnOpenFromBinary.Text = "Читати бінарні дані";
+            this.btnOpenFromBinary.ToolTipText = "Читати бінарні дані";
+            this.btnOpenFromBinary.Click += new System.EventHandler(this.btnOpenFromBinary_Click);
+            // 
+            // tsSeparator3
+            // 
+            this.tsSeparator3.Name = "tsSeparator3";
+            this.tsSeparator3.Size = new System.Drawing.Size(6, 27);
             // 
             // btnExit
             // 
@@ -172,6 +232,12 @@
         private System.Windows.Forms.ToolStripButton btnExit;
         private System.Windows.Forms.BindingSource bindSrcStudents;
         private System.Windows.Forms.DataGridView gvStudents;
+        private System.Windows.Forms.ToolStripButton btnSaveAsText;
+        private System.Windows.Forms.ToolStripButton btnSaveAsBinary;
+        private System.Windows.Forms.ToolStripButton btnOpenFromText;
+        private System.Windows.Forms.ToolStripButton btnOpenFromBinary;
+        private System.Windows.Forms.ToolStripSeparator tsSeparator3;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog;
     }
 }
 
